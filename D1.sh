@@ -2,7 +2,7 @@
 
 # Nom du fichier CSV d'entrée
 input_csv="trajet_diff.csv"
-
+ 
 # Vérifier si le fichier CSV d'entrée existe
 if [ ! -f "$input_csv" ]; then
   echo "Le fichier $input_csv n'existe pas."
